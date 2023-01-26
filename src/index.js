@@ -4,7 +4,7 @@ const crypto = require("node:crypto");
 const app = express();
 const id = crypto.randomUUID();
 
-const courses = []
+const courses = [];
 
 app.get("/courses", (req, res) => {
   return res.json([
@@ -17,10 +17,10 @@ app.get("/courses", (req, res) => {
 });
 
 app.post("/courses", (req, res) => {
-//   const { curso, tema } = req.body;
+  //   const { curso, tema } = req.body;
   return res.json({
     id,
-    curso:"Um curso muito legal",
+    curso: "Um curso muito legal",
     tema: "Um tema de curso muito legal",
   });
 });
