@@ -1,0 +1,17 @@
+{
+  "name": "node-ignite-2021",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Paulo-Augusto12/node-ignite-2021.git",
+  "author": "Paulo Augusto <paulo-augusto12@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "scripts": {
+    "format":"yarn prettier --write src"
+  },
+  "devDependencies": {
+    "prettier": "2.8.3"
+  }
+}
